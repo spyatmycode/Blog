@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.burger{
+    position: relative;
+    right: 10px;
+    
+    
+}
+
+.fa-bars, .fa-times{
+    display: flex;
+    font-size: 25px;
+    padding: 12px;
+    color: white;
+}
+
+#fa-times{
+    display: none;
+    z-index: 4;
+}
+
+.times{
+    position: relative;
+    top: 0px;
+}
+
+.mobile-menu a{
+    text-decoration: none;
+     color: rgba(255, 255, 255, 0.322);
+}
+
+.mobile-menu li:hover, .mobile-menu a:hover{
+    color:honeydew;
+
+}
+
+.mobile-menu{
+    
+    position: relative;
+    background-color: #2f4858; 
+    width: 300px;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex ;
+    z-index: 4;
+    transition: 0.6s ease-in-out;
+    scroll-behavior: smooth;
+    width: 0;
+    
+
+    
+   
+}
+
+.mobile-menu ul{
+    text-align: center;
+}
+
+.mobile-menu li,.mobile-menu a{
+    padding: 30px 20px;
+    color: rgba(255, 255, 255, 0.342);
+    font-family: open sans;
+    text-align: center;
+    transition: 0.6s ease;
+    
+    
+}
+
+.menu-times .fa-times{
+    font-size: 20px!important;
+    font-weight: 0;
+}
+
+.logo h1{
+   font-size:30px;
+   padding: 12px;
+   color: white;
+  
+}
+
+.header{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    background-color: #112a3a;
+    position: fixed;
+    top: 0px;
+    z-index: 3;
+    width: 100vw;
+}
+
+#home, #about{
+    text-align: center;
+    padding-bottom: 70px;
+    height: auto;
+
+   
+}
+
+.home h1{
+    padding: 25px;
+    font-size: 30px;
+    color: #2f4858;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.home h2, .about h2{
+    padding: 25px;
+    font-size: 30px;
+    color: #2f4858;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.home em, .about em{
+    font-size: 17px;
+    
+}
+
+.home p, .about p{
+     font-size: 17px;
+     font-family: sans-serif ;
+     margin: auto 20px;
+     line-height: 30px;
+     font-weight: 500;
+     color: slategrey;
+}
+
+
+.homebutton{
+    margin-top: 40px;
+    color: white;
+    font-size: 20px;
+    background-color: dodgerblue;
+    padding: 20px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
