@@ -233,7 +233,7 @@ html{
 }
 
 .imageframe img:hover{
-    opacity: 0.5;
+    opacity: 0.9;
     width: 350px;
     height: 350px;
     transition: 0.4s ease-in-out;
@@ -351,6 +351,7 @@ input[type=text], select, textarea {
         display: flex;
         flex-direction: row;
         flex-basis: 100%;
+        overflow-x: scroll;
     }
     
     .imageframe{

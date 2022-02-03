@@ -22,7 +22,7 @@ function darkmode(element){
 
     var currentBackgroundColor = element.style.backgroundColor;
 
-    if (currentBackgroundColor =="floralwhite") {
+    if (element.style.backgroundColor =="floralwhite") {
         element.style.backgroundColor = "black";
         document.getElementById("maintext").style.color = "white";
         document.getElementById("header").style.backgroundColor = "black";
